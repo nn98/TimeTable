@@ -8,4 +8,43 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="TV01" parent="@android:style/Widget.TextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_margin">1dp</item>
+        <item name="android:layout_weight">10</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:background">#888</item>
+        <item name="android:gravity">center</item>
+        <!--
+        <item name="android:layout_marginLeft">1dp</item>
+        <item name="android:layout_marginRight">1dp</item>
+        <TextView
+            android:layout_margin="1dp"
+            android:background="#888"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="#fff"
+            android:text="시간/날짜"
+            android:layout_weight="10"/>
+        -->
+    </style>
+
+    <style name="LL01">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">10</item>
+        <item name="android:background">#666</item>
+        <item name="android:layout_margin">1dp</item>
+
+        <!--
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="10"
+                android:background="#666">
+
+            </LinearLayout>
+            -->
+    </style>
 </resources>
